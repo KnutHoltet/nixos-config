@@ -47,5 +47,6 @@
     imv
     vscode
     arduino
+    android-studio
   ];
 }
