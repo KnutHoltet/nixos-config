@@ -1,0 +1,26 @@
+[[language]]
+name = "javascript"
+auto-format = true
+
+[[language]]
+name = "jsx"
+auto-format = true
+
+[[language]]
+name = "typescript"
+auto-format = true
+
+[[language]]
+name = "tsx"
+auto-format = true
+
+[language-server.rust-analyzer.config]
+checkOnSave = { command = "clippy" }
+
+[[language]]
+name = "config"
+scope = "source.conf"
+file-types = [ "conf" ]
+comment-token = "#"
+roots = []
+indent = { tab-width = 4, unit = "    " }
