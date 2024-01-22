@@ -39,6 +39,7 @@
     helix
     vim
     obsidian
+    slack
 
     qutebrowser
     firefox
