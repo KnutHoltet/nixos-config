@@ -40,6 +40,7 @@
     vim
     obsidian
     slack
+    
 
     qutebrowser
     firefox
@@ -49,7 +50,10 @@
     vscode
     arduino
     android-studio
+    obs-studio
+
     asciiquarium
+    asciiquarium-transparent
     pipes-rs
     afetch
     neo-cowsay
