@@ -5,8 +5,8 @@ clock
 screenshots
 
 effect-blur=11x11
-effect-compose=1100,10;/home/knutnix/.config/swaylock/rebecca.png
-effect-compose=20,0;40%x100%;/home/knutnix/.config/swaylock/lucy.png
+effect-compose=1100,10;/home/knutnix/.config/swaylock/musashi.png
+effect-compose=20,0;40%x100%;/home/knutnix/.config/swaylock/
 font=JetBrains Mono
 indicator-radius=80
 indicator-thickness=8
