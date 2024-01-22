@@ -1,10 +1,32 @@
 {
-  description = "XNM's NixOS Configuration";
+  description = "knutnix config";
 
   inputs = {
       nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
       rust-overlay.url = "github:oxalica/rust-overlay";
+
+    home-manager.url = "github:nix-community/home-manager/master";
+    home-manager.inputs.nixpkgs.follows = "nixpkgs";
+    snowfall-lib = {
+      url = "github:snowfallorg/lib";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+    nixos-generators.url = "github:nix-community/nixos-generators";
+    nixos-generators.inputs.nixpkgs.follows = "nixpkgs";
+
+    nix-darwin.url = "github:LnL7/nix-darwin";
+    nix-darwin.inputs.nixpkgs.follows = "nixpkgs";
+
+    neovim = {
+     url = "github:KnutHoltet/lazyvim";
+     inputs.nixpkgs.follows = "nixpkgs";
+    };
+
+
+
+
   };
+
 
   outputs = { nixpkgs, ... } @ inputs:
   {
@@ -53,5 +75,11 @@
         ./terminal-utils.nix
       ];
     };
+
+
+      overlays = with inputs; [
+       neovim.overlays.x86_64-linux.neovim
+      ];
+
   };
 }

@@ -38,9 +38,9 @@
     starship
     helix
     vim
+    neovim
     obsidian
     slack
-    
 
     qutebrowser
     firefox
@@ -52,10 +52,10 @@
     android-studio
     obs-studio
 
-    asciiquarium
-    asciiquarium-transparent
-    pipes-rs
-    afetch
-    neo-cowsay
+   asciiquarium
+   asciiquarium-transparent
+   pipes-rs
+   afetch
+   neo-cowsay
   ];
 }
