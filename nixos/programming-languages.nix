@@ -9,5 +9,8 @@
     lua
     zig
     numbat
+    kotlin
+    jdk21 # jdk version 21
+    rustc
   ];
 }

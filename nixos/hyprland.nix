@@ -48,5 +48,9 @@
     vscode
     arduino
     android-studio
+    asciiquarium
+    pipes-rs
+    afetch
+    neo-cowsay
   ];
 }
