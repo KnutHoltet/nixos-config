@@ -41,6 +41,7 @@
     neovim
     obsidian
     slack
+    unzip
 
     qutebrowser
     firefox
