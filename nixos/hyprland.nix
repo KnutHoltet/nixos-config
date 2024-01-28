@@ -42,6 +42,7 @@
     obsidian
     slack
     unzip
+    zip
 
     qutebrowser
     firefox
