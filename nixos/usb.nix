@@ -23,7 +23,7 @@
       allow id {1d6b:0003} # Linux Foundation 3.0 root hub
       allow id {0951:16df} # Kingston Technology HyperX QuadCast
       allow id {2341:0043} # Arduino SA Uno R3 (CDC ACM)
-
+      allow id {04e8:6860} # Samsung Electronics Co., Lts Galaxy series, misc. (MTP mode)
     '';
   };
 
